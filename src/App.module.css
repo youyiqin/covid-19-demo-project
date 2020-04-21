@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.img {
+  width: 500px;
+  margin-top: 30px;;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+    padding: 0;
+  }
+
+  .img {
+    width: 100%;
+  }
+}
